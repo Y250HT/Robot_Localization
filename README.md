@@ -16,7 +16,7 @@ $ colcon build
 $ . install/setup.bash
 $ ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888 -v6
 ```
-## OR
+### OR
 ```bash
 $ . install/setup.bash
 $ ros2 run micro_ros_agent micro_ros_agent serial -b 115200 --dev /dev/ttyACM0 -v6
